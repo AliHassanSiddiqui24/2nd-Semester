@@ -1,0 +1,7 @@
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\bin\Debug\Self1.exe.config
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\bin\Debug\Self1.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\bin\Debug\Self1.pdb
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\obj\Debug\Self1.csproj.AssemblyReference.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\obj\Debug\Self1.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\obj\Debug\Self1.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self1\obj\Debug\Self1.pdb

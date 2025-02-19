@@ -1,0 +1,7 @@
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\bin\Debug\Task6.exe.config
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\bin\Debug\Task6.exe
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\bin\Debug\Task6.pdb
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\obj\Debug\Task6.csproj.AssemblyReference.cache
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\obj\Debug\Task6.csproj.CoreCompileInputs.cache
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\obj\Debug\Task6.exe
+C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 2\Task6\obj\Debug\Task6.pdb
