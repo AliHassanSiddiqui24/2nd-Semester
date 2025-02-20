@@ -1,0 +1,7 @@
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\bin\Debug\Problem 3.exe.config
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\bin\Debug\Problem 3.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\bin\Debug\Problem 3.pdb
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\obj\Debug\Problem 3.csproj.AssemblyReference.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\obj\Debug\Problem 3.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\obj\Debug\Problem 3.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\PD\Problem 3\obj\Debug\Problem 3.pdb
