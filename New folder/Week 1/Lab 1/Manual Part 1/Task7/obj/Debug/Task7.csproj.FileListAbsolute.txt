@@ -1,0 +1,7 @@
+E:\2nd Semester\Tasks\Task7\bin\Debug\Task7.exe.config
+E:\2nd Semester\Tasks\Task7\bin\Debug\Task7.exe
+E:\2nd Semester\Tasks\Task7\bin\Debug\Task7.pdb
+E:\2nd Semester\Tasks\Task7\obj\Debug\Task7.csproj.AssemblyReference.cache
+E:\2nd Semester\Tasks\Task7\obj\Debug\Task7.csproj.CoreCompileInputs.cache
+E:\2nd Semester\Tasks\Task7\obj\Debug\Task7.exe
+E:\2nd Semester\Tasks\Task7\obj\Debug\Task7.pdb

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 3\\Lab\\Challenge 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBDF154-8D71-4622-93DA-A455D25BFE46}|Challenge 2.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 3\\lab\\challenge 2\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBDF154-8D71-4622-93DA-A455D25BFE46}|Challenge 2.csproj|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CBDF154-8D71-4622-93DA-A455D25BFE46}|Challenge 2.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 3\\lab\\challenge 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CBDF154-8D71-4622-93DA-A455D25BFE46}|Challenge 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 3\\Lab\\Challenge 2\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 3\\Lab\\Challenge 2\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAACwAAADQmJmZmbkwwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:04:38.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 3\\Lab\\Challenge 2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 3\\Lab\\Challenge 2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAoAAAAANzMzMzMvwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T22:58:49.673Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

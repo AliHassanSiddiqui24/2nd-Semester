@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 4\\practice\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 4\\practice\\degreeprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|solutionrelative:degreeprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 4\\practice\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|solutionrelative:subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 4\\practice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D34FB7-5FF6-4970-9D3E-351C9CC9557F}|Practice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DegreeProgram.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\DegreeProgram.cs",
+              "RelativeDocumentMoniker": "DegreeProgram.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\DegreeProgram.cs",
+              "RelativeToolTip": "DegreeProgram.cs",
+              "ViewState": "AgIAABAAAAAAm5mZmZkJwBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T14:04:00.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAACQAAABAZ2ZmZmYgwC8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:01:45.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Subject.cs",
+              "RelativeDocumentMoniker": "Subject.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Subject.cs",
+              "RelativeToolTip": "Subject.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:01:56.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 4\\Practice\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAB4mZmZmZk6wAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T13:00:48.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

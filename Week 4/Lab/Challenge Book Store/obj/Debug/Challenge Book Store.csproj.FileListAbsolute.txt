@@ -1,0 +1,7 @@
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\bin\Debug\Challenge Book Store.exe.config
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\bin\Debug\Challenge Book Store.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\bin\Debug\Challenge Book Store.pdb
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\obj\Debug\Challenge Book Store.csproj.AssemblyReference.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\obj\Debug\Challenge Book Store.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\obj\Debug\Challenge Book Store.exe
+C:\Users\ABC\Desktop\2nd-Semester\Week 4\Lab\Challenge Book Store\obj\Debug\Challenge Book Store.pdb
