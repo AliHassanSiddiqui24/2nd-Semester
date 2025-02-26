@@ -1,7 +1,0 @@
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\bin\Debug\Self Assessment.exe.config
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\bin\Debug\Self Assessment.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\bin\Debug\Self Assessment.pdb
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\obj\Debug\Self Assessment.csproj.AssemblyReference.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\obj\Debug\Self Assessment.csproj.CoreCompileInputs.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\obj\Debug\Self Assessment.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 1\Lab 1\Manual Part 3\Self Assessment\obj\Debug\Self Assessment.pdb

@@ -13,18 +13,7 @@ namespace Task1
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("***************************************************************");
-                Console.WriteLine("                        UAMS                                   ");
-                Console.WriteLine("***************************************************************");
-                Console.WriteLine("1. Add Student");
-                Console.WriteLine("2. Add Degree Program");
-                Console.WriteLine("3. Generate Merit");
-                Console.WriteLine("4. View Registered Students");
-                Console.WriteLine("5. View Students of a Specific Program");
-                Console.WriteLine("6. Register Subjects for a Specific Student");
-                Console.WriteLine("7. Calculate Fees for all Registered Students");
-                Console.WriteLine("8. Exit");
-                Console.Write("Enter Option: ");
+                ConsoleUtility.ShowMenu();
 
                 string option = Console.ReadLine();
 
@@ -56,20 +45,29 @@ namespace Task1
                         break;
                     default:
                         Console.WriteLine("Invalid Option!");
-                        Console.ReadKey();
+                        ConsoleUtility.PressAnyKey();
                         break;
                 }
             }
         }
-
-        #region Menu Handlers
         static void AddStudent()
         {
             Console.Clear();
             StudentBL student = StudentUI.GetStudentInput();
+            Console.WriteLine("\nAvailable Degree Programs:");
+            foreach (var program in DegreeProgramDL.Programs)
+            {
+                Console.WriteLine($"- {program.Title}");
+            }
 
-            Console.Write("Enter how many preferences to enter: ");
-            int count = int.Parse(Console.ReadLine());
+            Console.Write("\nEnter how many preferences to enter: ");
+            int count;
+            if (!int.TryParse(Console.ReadLine(), out count) || count < 1)
+            {
+                Console.WriteLine("Invalid input!");
+                ConsoleUtility.PressAnyKey();
+                return;
+            }
 
             for (int i = 0; i < count; i++)
             {
@@ -80,11 +78,16 @@ namespace Task1
                 {
                     student.Preferences.Add(program);
                 }
+                else
+                {
+                    Console.WriteLine($"Program '{programName}' not found.");
+                    i--;
+                }
             }
 
             StudentDL.Students.Add(student);
-            Console.WriteLine("Student added successfully!");
-            Console.ReadKey();
+            Console.WriteLine("\nStudent added successfully!");
+            ConsoleUtility.PressAnyKey();
         }
 
         static void AddDegreeProgram()
@@ -99,21 +102,23 @@ namespace Task1
         static void GenerateMerit()
         {
             Console.Clear();
-            // Calculate merit for all students
-            foreach (StudentBL student in StudentDL.Students)
+            foreach (var student in StudentDL.Students)
             {
                 student.CalculateMerit();
             }
 
-            // Sort students by merit
-            StudentDL.Students.Sort((x, y) => y.Merit.CompareTo(x.Merit));
+            var sortedStudents = StudentDL.Students.OrderByDescending(s => s.Merit).ToList();
 
-            // Allocate programs
-            foreach (StudentBL student in StudentDL.Students)
+            foreach (var student in sortedStudents)
             {
-                foreach (DegreeProgramBL program in student.Preferences)
+                student.RegisteredProgram = null;
+            }
+
+            foreach (var student in sortedStudents)
+            {
+                foreach (var program in student.Preferences)
                 {
-                    if (program.Seats > 0 && student.RegisteredProgram == null)
+                    if (program.Seats > 0)
                     {
                         student.RegisteredProgram = program;
                         program.Seats--;
@@ -122,22 +127,33 @@ namespace Task1
                 }
             }
 
-            Console.WriteLine("Merit list generated successfully!");
-            Console.ReadKey();
+            Console.WriteLine("Admission Results:");
+            foreach (var student in sortedStudents)
+            {
+                if (student.RegisteredProgram != null)
+                {
+                    Console.WriteLine($"{student.Name} got Admission in {student.RegisteredProgram.Title}");
+                }
+                else
+                {
+                    Console.WriteLine($"{student.Name} did not get Admission");
+                }
+            }
+
+            ConsoleUtility.PressAnyKey();
         }
+
 
         static void ViewRegisteredStudents()
         {
             Console.Clear();
-            Console.WriteLine("Name\tFSC\tECAT\tAge");
-            foreach (StudentBL student in StudentDL.Students)
+            Console.WriteLine("| Name     | FSC   | ECAT  | Age |");
+            Console.WriteLine("|----------|-------|-------|-----|");
+            foreach (var student in StudentDL.Students.Where(s => s.RegisteredProgram != null))
             {
-                if (student.RegisteredProgram != null)
-                {
-                    Console.WriteLine($"{student.Name}\t{student.FSC}\t{student.ECAT}\t{student.Age}");
-                }
+                Console.WriteLine($"| {student.Name,-8} | {student.FSC,-5} | {student.ECAT,-5} | {student.Age,-3} |");
             }
-            Console.ReadKey();
+            ConsoleUtility.PressAnyKey();
         }
 
         static void ViewProgramStudents()
@@ -146,17 +162,15 @@ namespace Task1
             Console.Write("Enter Degree Name: ");
             string degreeName = Console.ReadLine();
 
-            Console.WriteLine($"Students in {degreeName}:");
-            Console.WriteLine("Name\tFSC\tECAT\tAge");
+            Console.WriteLine($"\nStudents in {degreeName}:");
+            Console.WriteLine("| Name     | FSC   | ECAT  | Age |");
+            Console.WriteLine("|----------|-------|-------|-----|");
 
-            foreach (StudentBL student in StudentDL.Students)
+            foreach (var student in StudentDL.Students.Where(s => s.RegisteredProgram?.Title == degreeName))
             {
-                if (student.RegisteredProgram != null && student.RegisteredProgram.Title == degreeName)
-                {
-                    Console.WriteLine($"{student.Name}\t{student.FSC}\t{student.ECAT}\t{student.Age}");
-                }
+                Console.WriteLine($"| {student.Name,-8} | {student.FSC,-5} | {student.ECAT,-5} | {student.Age,-3} |");
             }
-            Console.ReadKey();
+            ConsoleUtility.PressAnyKey();
         }
 
         static void RegisterSubjects()
@@ -192,21 +206,17 @@ namespace Task1
         static void CalculateFees()
         {
             Console.Clear();
-            foreach (StudentBL student in StudentDL.Students)
+            Console.WriteLine("Fees for Registered Students:");
+            foreach (var student in StudentDL.Students)
             {
                 if (student.RegisteredProgram != null)
                 {
-                    float total = 0;
-                    foreach (SubjectBL subject in student.RegisteredSubjects)
-                    {
-                        total += subject.Fee;
-                    }
-                    Console.WriteLine($"{student.Name} Fee: {total}");
+                    float totalFee = student.calculateFee();
+                    Console.WriteLine($"{student.Name}: {totalFee} PKR");
                 }
             }
-            Console.ReadKey();
+            ConsoleUtility.PressAnyKey();
         }
-        #endregion
     }
 }
 

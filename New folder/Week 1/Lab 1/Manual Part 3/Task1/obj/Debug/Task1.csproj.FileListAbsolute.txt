@@ -1,7 +1,0 @@
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\bin\Debug\Task1.exe.config
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\bin\Debug\Task1.exe
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\bin\Debug\Task1.pdb
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\obj\Debug\Task1.csproj.AssemblyReference.cache
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\obj\Debug\Task1.csproj.CoreCompileInputs.cache
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\obj\Debug\Task1.exe
-C:\Ali Hassan\Material\OOP Lab\Tasks\Manual Part 3\Task1\obj\Debug\Task1.pdb

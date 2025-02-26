@@ -1,7 +1,0 @@
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\bin\Debug\Self2.exe.config
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\bin\Debug\Self2.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\bin\Debug\Self2.pdb
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\obj\Debug\Self2.csproj.AssemblyReference.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\obj\Debug\Self2.csproj.CoreCompileInputs.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\obj\Debug\Self2.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 3\Practice\Self2\obj\Debug\Self2.pdb

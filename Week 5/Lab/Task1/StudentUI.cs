@@ -11,14 +11,28 @@ namespace Task1
         public static StudentBL GetStudentInput()
         {
             StudentBL student = new StudentBL();
+
             Console.Write("Enter Student Name: ");
             student.Name = Console.ReadLine();
+
             Console.Write("Enter Age: ");
-            student.Age = int.Parse(Console.ReadLine());
+            while (!int.TryParse(Console.ReadLine(), out student.Age))
+            {
+                Console.Write("Invalid input. Enter Age: ");
+            }
+
             Console.Write("Enter FSC Marks: ");
-            student.FSC = float.Parse(Console.ReadLine());
+            while (!float.TryParse(Console.ReadLine(), out student.FSC))
+            {
+                Console.Write("Invalid input. Enter FSC Marks: ");
+            }
+
             Console.Write("Enter ECAT Marks: ");
-            student.ECAT = float.Parse(Console.ReadLine());
+            while (!float.TryParse(Console.ReadLine(), out student.ECAT))
+            {
+                Console.Write("Invalid input. Enter ECAT Marks: ");
+            }
+
             return student;
         }
     }

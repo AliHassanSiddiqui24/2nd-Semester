@@ -9,5 +9,6 @@ namespace Task1
     public static class DegreeProgramDL
     {
         public static List<DegreeProgramBL> Programs = new List<DegreeProgramBL>();
+
     }
 }
