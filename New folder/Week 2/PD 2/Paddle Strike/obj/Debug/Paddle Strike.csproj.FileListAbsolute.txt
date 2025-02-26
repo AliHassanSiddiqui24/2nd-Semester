@@ -1,7 +1,0 @@
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\bin\Debug\Paddle Strike.exe.config
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\bin\Debug\Paddle Strike.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\bin\Debug\Paddle Strike.pdb
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\obj\Debug\Paddle Strike.csproj.AssemblyReference.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\obj\Debug\Paddle Strike.csproj.CoreCompileInputs.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\obj\Debug\Paddle Strike.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Paddle Strike\obj\Debug\Paddle Strike.pdb

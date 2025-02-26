@@ -1,7 +1,0 @@
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\bin\Debug\Cricket Management System.exe.config
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\bin\Debug\Cricket Management System.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\bin\Debug\Cricket Management System.pdb
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\obj\Debug\Cricket Management System.csproj.AssemblyReference.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\obj\Debug\Cricket Management System.csproj.CoreCompileInputs.cache
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\obj\Debug\Cricket Management System.exe
-C:\Users\ABC\Desktop\2nd-Semester\Week 2\PD 2\Cricket Management System\obj\Debug\Cricket Management System.pdb

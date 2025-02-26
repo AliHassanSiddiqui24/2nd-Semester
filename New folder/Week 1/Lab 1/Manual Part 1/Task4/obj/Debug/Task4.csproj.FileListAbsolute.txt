@@ -1,7 +1,0 @@
-E:\2nd Semester\Tasks\Task4\bin\Debug\Task4.exe.config
-E:\2nd Semester\Tasks\Task4\bin\Debug\Task4.exe
-E:\2nd Semester\Tasks\Task4\bin\Debug\Task4.pdb
-E:\2nd Semester\Tasks\Task4\obj\Debug\Task4.csproj.AssemblyReference.cache
-E:\2nd Semester\Tasks\Task4\obj\Debug\Task4.csproj.CoreCompileInputs.cache
-E:\2nd Semester\Tasks\Task4\obj\Debug\Task4.exe
-E:\2nd Semester\Tasks\Task4\obj\Debug\Task4.pdb
