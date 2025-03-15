@@ -1,7 +1,0 @@
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\Business.exe.config
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\Business.exe
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\Business.pdb
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\obj\Debug\Business.csproj.AssemblyReference.cache
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\obj\Debug\Business.exe
-C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\obj\Debug\Business.pdb
