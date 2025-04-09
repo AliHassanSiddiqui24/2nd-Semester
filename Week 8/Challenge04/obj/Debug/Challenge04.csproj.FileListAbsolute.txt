@@ -1,0 +1,7 @@
+C:\Users\ABC\Desktop\Practice\Challenge04\bin\Debug\Challenge04.exe.config
+C:\Users\ABC\Desktop\Practice\Challenge04\bin\Debug\Challenge04.exe
+C:\Users\ABC\Desktop\Practice\Challenge04\bin\Debug\Challenge04.pdb
+C:\Users\ABC\Desktop\Practice\Challenge04\obj\Debug\Challenge04.csproj.AssemblyReference.cache
+C:\Users\ABC\Desktop\Practice\Challenge04\obj\Debug\Challenge04.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\Practice\Challenge04\obj\Debug\Challenge04.exe
+C:\Users\ABC\Desktop\Practice\Challenge04\obj\Debug\Challenge04.pdb

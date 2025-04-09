@@ -1,89 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\",
+  "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\trainingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\trainingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\trainingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\trainingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\fixtureui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\fixtureui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\managermenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\managermenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\coachmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\coachmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\ui\\authui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\authui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\2024-cs-5 cricket management system\\business\\dl\\trainingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\trainingsessionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\fixturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\fixturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\dl\\fixturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\fixturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\fixturemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\bl\\fixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\bl\\fixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:bl\\fixture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\bl\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\playermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\playerui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\playerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\trainingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\trainingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\authui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\authui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\validationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\managermenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\managermenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\fixtureui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\fixtureui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\ui\\coachmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:ui\\coachmenuui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\fixturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\fixturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\dl\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:dl\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\bl\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:bl\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\bl\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\bl\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:bl\\trainingsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|c:\\users\\abc\\desktop\\2nd-semester\\business application\\business\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0989F2C-AFAC-48F6-975A-3A466002D7C7}|Business.csproj|solutionrelative:bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -94,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,13 +102,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ValidationHelper.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\ValidationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\ValidationHelper.cs",
               "RelativeDocumentMoniker": "UI\\ValidationHelper.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\ValidationHelper.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\ValidationHelper.cs",
               "RelativeToolTip": "UI\\ValidationHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIwAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAuwJQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:16:00.933Z",
               "IsPinned": true,
@@ -116,118 +116,122 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AuthUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\AuthUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\AuthUI.cs",
               "RelativeDocumentMoniker": "UI\\AuthUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\AuthUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\AuthUI.cs",
               "RelativeToolTip": "UI\\AuthUI.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwCIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T11:33:16.461Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManagerMenuUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\ManagerMenuUI.cs",
-              "RelativeDocumentMoniker": "UI\\ManagerMenuUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\ManagerMenuUI.cs",
-              "RelativeToolTip": "UI\\ManagerMenuUI.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAowBQAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:01:20.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\UserRepository.cs",
-              "RelativeDocumentMoniker": "DL\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\UserRepository.cs",
-              "RelativeToolTip": "DL\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwCAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:33:40.992Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FixtureUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\FixtureUI.cs",
-              "RelativeDocumentMoniker": "UI\\FixtureUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\FixtureUI.cs",
-              "RelativeToolTip": "UI\\FixtureUI.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAwD0AAAAAAAAAAAAAAA==",
+              "Title": "PlayerManager.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\PlayerManager.cs",
+              "RelativeDocumentMoniker": "DL\\PlayerManager.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\PlayerManager.cs",
+              "RelativeToolTip": "DL\\PlayerManager.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T11:38:57.996Z",
+              "WhenOpened": "2025-03-15T12:33:00.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "TrainingSessionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\TrainingSessionRepository.cs",
+              "RelativeDocumentMoniker": "DL\\TrainingSessionRepository.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\TrainingSessionRepository.cs",
+              "RelativeToolTip": "DL\\TrainingSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:33:24.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fixture.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\Fixture.cs",
+              "RelativeDocumentMoniker": "BL\\Fixture.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\Fixture.cs",
+              "RelativeToolTip": "BL\\Fixture.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:31:46.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SqlHelper.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\SqlHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\SqlHelper.cs",
               "RelativeDocumentMoniker": "DL\\SqlHelper.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\SqlHelper.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\SqlHelper.cs",
               "RelativeToolTip": "DL\\SqlHelper.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:18:36.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\UserManager.cs",
-              "RelativeDocumentMoniker": "DL\\UserManager.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\UserManager.cs",
-              "RelativeToolTip": "DL\\UserManager.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAuwAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FixtureManager.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\FixtureManager.cs",
+              "RelativeDocumentMoniker": "DL\\FixtureManager.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\FixtureManager.cs",
+              "RelativeToolTip": "DL\\FixtureManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:33:31.292Z",
+              "WhenOpened": "2025-03-15T12:23:43.32Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PlayerUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\PlayerUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\PlayerUI.cs",
               "RelativeDocumentMoniker": "UI\\PlayerUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\PlayerUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\PlayerUI.cs",
               "RelativeToolTip": "UI\\PlayerUI.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T11:09:37.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PlayerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\PlayerRepository.cs",
+              "RelativeDocumentMoniker": "DL\\PlayerRepository.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\PlayerRepository.cs",
+              "RelativeToolTip": "DL\\PlayerRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T20:26:34.131Z",
+              "WhenOpened": "2025-03-15T12:19:16.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "TrainingUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\TrainingUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\TrainingUI.cs",
               "RelativeDocumentMoniker": "UI\\TrainingUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\TrainingUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\TrainingUI.cs",
               "RelativeToolTip": "UI\\TrainingUI.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAYwEsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T11:39:18.485Z",
               "EditorCaption": ""
@@ -235,103 +239,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\UserRepository.cs",
+              "RelativeDocumentMoniker": "DL\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\UserRepository.cs",
+              "RelativeToolTip": "DL\\UserRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:33:40.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\UserManager.cs",
+              "RelativeDocumentMoniker": "DL\\UserManager.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\UserManager.cs",
+              "RelativeToolTip": "DL\\UserManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:33:31.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ManagerMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\ManagerMenuUI.cs",
+              "RelativeDocumentMoniker": "UI\\ManagerMenuUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\ManagerMenuUI.cs",
+              "RelativeToolTip": "UI\\ManagerMenuUI.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T12:01:20.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FixtureUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\FixtureUI.cs",
+              "RelativeDocumentMoniker": "UI\\FixtureUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\FixtureUI.cs",
+              "RelativeToolTip": "UI\\FixtureUI.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswGIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T11:38:57.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CoachMenuUI.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\CoachMenuUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\CoachMenuUI.cs",
               "RelativeDocumentMoniker": "UI\\CoachMenuUI.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\UI\\CoachMenuUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\UI\\CoachMenuUI.cs",
               "RelativeToolTip": "UI\\CoachMenuUI.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBIAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:10:02.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TrainingSessionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\TrainingSessionRepository.cs",
-              "RelativeDocumentMoniker": "DL\\TrainingSessionRepository.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\TrainingSessionRepository.cs",
-              "RelativeToolTip": "DL\\TrainingSessionRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwCEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:33:24.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TrainingManager.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\TrainingManager.cs",
-              "RelativeDocumentMoniker": "DL\\TrainingManager.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\TrainingManager.cs",
-              "RelativeToolTip": "DL\\TrainingManager.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T11:41:28.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\PlayerRepository.cs",
-              "RelativeDocumentMoniker": "DL\\PlayerRepository.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\PlayerRepository.cs",
-              "RelativeToolTip": "DL\\PlayerRepository.cs",
-              "ViewState": "AgIAAA0AAACAaWZmZmYswCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:19:16.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "PlayerManager.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\PlayerManager.cs",
-              "RelativeDocumentMoniker": "DL\\PlayerManager.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\PlayerManager.cs",
-              "RelativeToolTip": "DL\\PlayerManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:33:00.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T20:26:34.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "FixtureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\FixtureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\FixtureRepository.cs",
               "RelativeDocumentMoniker": "DL\\FixtureRepository.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\FixtureRepository.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\FixtureRepository.cs",
               "RelativeToolTip": "DL\\FixtureRepository.cs",
-              "ViewState": "AgIAABsAAAAA/v////8PwBgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:32:53.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "FixtureManager.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\FixtureManager.cs",
-              "RelativeDocumentMoniker": "DL\\FixtureManager.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\DL\\FixtureManager.cs",
-              "RelativeToolTip": "DL\\FixtureManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCkAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "TrainingManager.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\TrainingManager.cs",
+              "RelativeDocumentMoniker": "DL\\TrainingManager.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\DL\\TrainingManager.cs",
+              "RelativeToolTip": "DL\\TrainingManager.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:23:43.32Z",
+              "WhenOpened": "2025-03-15T11:41:28.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\User.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\User.cs",
               "RelativeDocumentMoniker": "BL\\User.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\User.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\User.cs",
               "RelativeToolTip": "BL\\User.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T10:50:00.396Z",
               "EditorCaption": ""
@@ -340,9 +357,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "TrainingSession.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\TrainingSession.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\TrainingSession.cs",
               "RelativeDocumentMoniker": "BL\\TrainingSession.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\TrainingSession.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\TrainingSession.cs",
               "RelativeToolTip": "BL\\TrainingSession.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,27 +370,28 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\Player.cs",
               "RelativeDocumentMoniker": "BL\\Player.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\Player.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\2024-CS-5 Cricket Management System\\Business\\BL\\Player.cs",
               "RelativeToolTip": "BL\\Player.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAACAzMzMzMw1wBAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T12:33:56.253Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Fixture.cs",
-              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\Fixture.cs",
-              "RelativeDocumentMoniker": "BL\\Fixture.cs",
-              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Business Application\\Business\\BL\\Fixture.cs",
-              "RelativeToolTip": "BL\\Fixture.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T12:31:46.049Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

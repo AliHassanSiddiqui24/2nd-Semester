@@ -26,3 +26,31 @@ C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\System
 C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\ABC\Desktop\2nd-Semester\Business Application\Business\obj\Debug\Business.csproj.Up2Date
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Business.exe.config
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Business.exe
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Business.pdb
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\MySqlConnector.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Buffers.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Memory.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\MySqlConnector.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Buffers.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Memory.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\obj\Debug\Business.csproj.Up2Date
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\obj\Debug\Business.exe
+C:\Users\ABC\Desktop\2nd-Semester\2024-CS-5 Cricket Management System\Business\obj\Debug\Business.pdb
