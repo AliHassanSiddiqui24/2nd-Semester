@@ -16,7 +16,7 @@ namespace Challenge05
             HasSunroof = hasSunroof;
         }
 
-        public override double CalculateRentalCost(int days)
+        public double CalculateRentalCost(int days)
         {
             double baseCost = base.CalculateRentalCost(days);
             if (HasSunroof)
@@ -26,9 +26,9 @@ namespace Challenge05
             return baseCost;
         }
 
-        public override string ToString()
+        public string GetAudiInfo()
         {
-            return base.ToString() + $", Sunroof: {HasSunroof}";
+            return $"{GetCarInfo()}, Sunroof: {HasSunroof}";
         }
     }
 }

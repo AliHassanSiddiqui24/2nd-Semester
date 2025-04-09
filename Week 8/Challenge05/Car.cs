@@ -19,12 +19,12 @@ namespace Challenge05
             PricePerDay = pricePerDay;
         }
 
-        public virtual double CalculateRentalCost(int days)
+        public double CalculateRentalCost(int days)
         {
             return PricePerDay * days;
         }
 
-        public override string ToString()
+        public string GetCarInfo()
         {
             return $"Brand: {Brand}, Color: {Color}, Price/Day: {PricePerDay:C}";
         }

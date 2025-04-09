@@ -10,25 +10,25 @@ namespace Challenge05
     {
         public bool HasLuxuryPackage { get; set; }
 
-        public BMW(string color, double pricePerDay, bool hasLuxuryPackage) : base("BMW", color, pricePerDay)
-
+        public BMW(string color, double pricePerDay, bool hasLuxuryPackage)
+            : base("BMW", color, pricePerDay)
         {
             HasLuxuryPackage = hasLuxuryPackage;
         }
 
-        public override double CalculateRentalCost(int days)
+        public double CalculateRentalCost(int days)
         {
             double baseCost = base.CalculateRentalCost(days);
             if (HasLuxuryPackage)
             {
-                baseCost += 50.0 * days;
+                baseCost = baseCost + 50.0 * days;
             }
             return baseCost;
         }
 
-        public override string ToString()
+        public string GetBMWInfo()
         {
-            return base.ToString() + $", LuxuryPackage: {HasLuxuryPackage}";
+            return $"{GetCarInfo()}, LuxuryPackage: {HasLuxuryPackage}";
         }
     }
 }
