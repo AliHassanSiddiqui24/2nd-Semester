@@ -10,10 +10,15 @@ namespace Challenge01
     {
         private int seatHeight;
 
-        public MountainBike(int seatHeight, int cadence, int speed, int gear) : base(cadence, speed, gear) 
-
+        public MountainBike(int seatHeight, int cadence, int speed, int gear)
+            : base(cadence, speed, gear)
         {
             this.seatHeight = seatHeight;
+        }
+
+        public int GetSeatHeight()
+        {
+            return seatHeight;
         }
 
         public void SetSeatHeight(int seatHeight)

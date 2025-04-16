@@ -8,9 +8,9 @@ namespace Challenge01
 {
     public class Bicycle
     {
-        protected int cadence;
-        protected int gear;
-        protected int speed;
+        private int cadence;
+        private int gear;
+        private int speed;
 
         public Bicycle(int cadence, int speed, int gear)
         {
@@ -19,9 +19,19 @@ namespace Challenge01
             this.gear = gear;
         }
 
+        public int GetCadence()
+        {
+            return cadence;
+        }
+
         public void SetCadence(int cadence)
         {
             this.cadence = cadence;
+        }
+
+        public int GetGear()
+        {
+            return gear;
         }
 
         public void SetGear(int gear)
@@ -29,14 +39,24 @@ namespace Challenge01
             this.gear = gear;
         }
 
+        public int GetSpeed()
+        {
+            return speed;
+        }
+
+        public void SetSpeed(int speed)
+        {
+            this.speed = speed;
+        }
+
         public void ApplyBrake(int decrement)
         {
-            speed = speed - decrement;
+            speed -= decrement;
         }
 
         public void SpeedUp(int increment)
         {
-            speed = speed + increment;
+            speed += increment;
         }
     }
 

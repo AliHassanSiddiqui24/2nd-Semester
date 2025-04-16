@@ -31,7 +31,7 @@ namespace Challenge05
             double baseCost = base.CalculateRentalCost(days);
             if (GetHasSunroof())
             {
-                baseCost -= 10.0 * days;
+                baseCost += 10.0 * days;
             }
             return baseCost;
         }

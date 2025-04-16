@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|solutionrelative:staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 8\\lab\\challenge03\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 8\\lab\\challenge03\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6CCB5E6-452E-4010-AE7A-BAAA65CF5945}|Challenge03.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,52 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Staff.cs",
               "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Staff.cs",
               "RelativeDocumentMoniker": "Staff.cs",
               "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Staff.cs",
               "RelativeToolTip": "Staff.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T21:50:59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Student.cs",
               "RelativeDocumentMoniker": "Student.cs",
               "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Student.cs",
               "RelativeToolTip": "Student.cs",
-              "ViewState": "AgIAADQAAAAANTMzMzMTwDoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T21:50:18.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Person.cs",
               "RelativeDocumentMoniker": "Person.cs",
               "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Person.cs",
               "RelativeToolTip": "Person.cs",
-              "ViewState": "AgIAACgAAADAZmZmZmYkwC0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T21:49:49.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\Lab\\Challenge03\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAhwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T21:49:35.392Z",
               "EditorCaption": ""
