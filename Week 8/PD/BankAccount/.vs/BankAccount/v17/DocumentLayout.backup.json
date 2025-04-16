@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\ui\\bankui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|solutionrelative:ui\\bankui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\dl\\bankdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|solutionrelative:dl\\bankdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\bl\\bankbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|solutionrelative:bl\\bankbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|c:\\users\\abc\\desktop\\2nd-semester\\week 8\\pd\\bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F71A746-2091-486F-AF61-8785CD9FC6F2}|BankAccount.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BankUI.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\UI\\BankUI.cs",
+              "RelativeDocumentMoniker": "UI\\BankUI.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\UI\\BankUI.cs",
+              "RelativeToolTip": "UI\\BankUI.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAASwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:35:45.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankDL.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\DL\\BankDL.cs",
+              "RelativeDocumentMoniker": "DL\\BankDL.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\DL\\BankDL.cs",
+              "RelativeToolTip": "DL\\BankDL.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:21:55.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankBL.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\BL\\BankBL.cs",
+              "RelativeDocumentMoniker": "BL\\BankBL.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\BL\\BankBL.cs",
+              "RelativeToolTip": "BL\\BankBL.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:07:45.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ABC\\Desktop\\2nd-Semester\\Week 8\\PD\\BankAccount\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T05:05:49.057Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
