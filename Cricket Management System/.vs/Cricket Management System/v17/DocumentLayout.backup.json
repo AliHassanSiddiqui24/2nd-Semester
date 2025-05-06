@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\viewerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\viewerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\managerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\managerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\managerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\managerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\viewerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\viewerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|c:\\users\\user\\desktop\\oop project\\cricket management system\\cricket management system\\ui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\ui\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\bl\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\bl\\iplayerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\bl\\batsman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\bl\\batsman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\bl\\playerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\bl\\playerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\bl\\userbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\bl\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\dl\\playerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\dl\\playerdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\dl\\userdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\cricket management system\\dl\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0123A458-AB47-4B9B-8210-6222A8F5F484}|Cricket Management System\\Cricket Management System.csproj|solutionrelative:cricket management system\\dl\\sqlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\Program.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\Program.cs",
+              "RelativeToolTip": "Cricket Management System\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:16:35.882Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ManagerDashboard.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\ManagerDashboard.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ManagerDashboard.cs",
+              "RelativeToolTip": "Cricket Management System\\UI\\ManagerDashboard.cs",
+              "ViewState": "AgIAALkAAAAAAAAAAAAuwMAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:41:22.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewerDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ViewerDashboard.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\ViewerDashboard.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ViewerDashboard.cs",
+              "RelativeToolTip": "Cricket Management System\\UI\\ViewerDashboard.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:33:58.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ViewerDashboard.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\ViewerDashboard.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ViewerDashboard.cs [Design]",
+              "RelativeToolTip": "Cricket Management System\\UI\\ViewerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T21:29:53.381Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ManagerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ManagerDashboard.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\ManagerDashboard.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\ManagerDashboard.cs [Design]",
+              "RelativeToolTip": "Cricket Management System\\UI\\ManagerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:24:01.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignupForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\SignupForm.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\SignupForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\SignupForm.cs",
+              "RelativeToolTip": "Cricket Management System\\UI\\SignupForm.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAewEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:22:11.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\LoginForm.cs",
+              "RelativeToolTip": "Cricket Management System\\UI\\LoginForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:07:35.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignupForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\SignupForm.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\SignupForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\SignupForm.cs [Design]",
+              "RelativeToolTip": "Cricket Management System\\UI\\SignupForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:17:07.208Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\UI\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\UI\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Cricket Management System\\UI\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T20:07:27.383Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Batsman.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\Batsman.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\BL\\Batsman.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\Batsman.cs",
+              "RelativeToolTip": "Cricket Management System\\BL\\Batsman.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwGoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:52:53.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\Player.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\BL\\Player.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\Player.cs",
+              "RelativeToolTip": "Cricket Management System\\BL\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:50:02.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPlayerService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\IPlayerService.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\BL\\IPlayerService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\IPlayerService.cs",
+              "RelativeToolTip": "Cricket Management System\\BL\\IPlayerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:49:32.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserBL.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\UserBL.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\BL\\UserBL.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\UserBL.cs",
+              "RelativeToolTip": "Cricket Management System\\BL\\UserBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:49:04.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerBL.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\PlayerBL.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\BL\\PlayerBL.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\BL\\PlayerBL.cs",
+              "RelativeToolTip": "Cricket Management System\\BL\\PlayerBL.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:50:38.702Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerDL.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\PlayerDL.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\DL\\PlayerDL.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\PlayerDL.cs",
+              "RelativeToolTip": "Cricket Management System\\DL\\PlayerDL.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA7wDkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:44:31.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDL.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\UserDL.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\DL\\UserDL.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\UserDL.cs",
+              "RelativeToolTip": "Cricket Management System\\DL\\UserDL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:43:53.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SqlHelper.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\SqlHelper.cs",
+              "RelativeDocumentMoniker": "Cricket Management System\\DL\\SqlHelper.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\OOP Project\\Cricket Management System\\Cricket Management System\\DL\\SqlHelper.cs",
+              "RelativeToolTip": "Cricket Management System\\DL\\SqlHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T19:41:37.597Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
