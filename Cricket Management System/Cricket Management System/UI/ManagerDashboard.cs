@@ -37,6 +37,8 @@ namespace Cricket_Management_System.UI
             // Populate the DataGridView with all players
             dgvPlayers.DataSource = _playerService.GetAllPlayers();
             dgvPlayers.Refresh();
+            dgvSearchResults.DataSource = _playerService.GetAllPlayers();
+            dgvSearchResults.Refresh();
         }
 
         private void ClearForm()
@@ -203,6 +205,21 @@ namespace Cricket_Management_System.UI
                 loginForm.ShowDialog();
                 this.Close();
             }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvSearchResults_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

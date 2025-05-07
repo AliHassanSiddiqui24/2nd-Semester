@@ -33,6 +33,37 @@ namespace Cricket_Management_System.UI
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtSearchName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnReset_Click_1(object sender, EventArgs e)
+        {
+            txtSearchName.Text = string.Empty;
+            LoadAllPlayers();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             string searchTerm = txtSearchName.Text.Trim();
             if (string.IsNullOrEmpty(searchTerm))
             {
@@ -44,13 +75,7 @@ namespace Cricket_Management_System.UI
             dgvPlayers.Refresh();
         }
 
-        private void btnReset_Click(object sender, EventArgs e)
-        {
-            txtSearchName.Text = string.Empty;
-            LoadAllPlayers();
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
+        private void btnLogout_Click(object sender, EventArgs e)
         {
             // Confirm before logout
             DialogResult result = MessageBox.Show("Are you sure you want to logout?", "Confirm Logout",
@@ -63,6 +88,11 @@ namespace Cricket_Management_System.UI
                 loginForm.ShowDialog();
                 this.Close();
             }
+        }
+
+        private void dgvPlayers_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

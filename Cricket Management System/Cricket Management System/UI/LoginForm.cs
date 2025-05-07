@@ -71,5 +71,15 @@ namespace Cricket_Management_System.UI
             signupForm.ShowDialog();
             this.Show();
         }
+
+        private void lblMessage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

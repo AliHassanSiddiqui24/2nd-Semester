@@ -98,7 +98,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\AllRounder.cs" />
     <Compile Include="BL\Batsman.cs" />
+    <Compile Include="BL\Bowler.cs" />
     <Compile Include="BL\IPlayerService.cs" />
     <Compile Include="BL\IUserService.cs" />
     <Compile Include="BL\Player.cs" />
