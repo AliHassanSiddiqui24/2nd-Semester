@@ -44,3 +44,5 @@ C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management S
 C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management System\obj\Debug\Cricket_Management_System.UI.SignupForm.resources
 C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management System\obj\Debug\Cricket_Management_System.UI.ManagerDashboard.resources
 C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management System\obj\Debug\Cricket_Management_System.UI.ViewerDashboard.resources
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management System\bin\Debug\Cricket_Management_System.BLL.dll
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket Management System\bin\Debug\Cricket_Management_System.BLL.pdb

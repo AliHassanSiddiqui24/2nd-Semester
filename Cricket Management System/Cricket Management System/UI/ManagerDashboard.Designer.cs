@@ -34,6 +34,18 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dgvPlayers = new System.Windows.Forms.DataGridView();
             this.grpPlayerDetails = new System.Windows.Forms.GroupBox();
+            this.txtSixes = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtFours = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtBallsBowled = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.txtFiveWickets = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtHalfCenturies = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtCenturies = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.numAge = new System.Windows.Forms.NumericUpDown();
@@ -122,19 +134,31 @@
             this.dgvPlayers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPlayers.BackgroundColor = System.Drawing.Color.White;
             this.dgvPlayers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPlayers.Location = new System.Drawing.Point(8, 582);
+            this.dgvPlayers.Location = new System.Drawing.Point(8, 650);
             this.dgvPlayers.MultiSelect = false;
             this.dgvPlayers.Name = "dgvPlayers";
             this.dgvPlayers.ReadOnly = true;
             this.dgvPlayers.RowHeadersWidth = 62;
             this.dgvPlayers.RowTemplate.Height = 28;
             this.dgvPlayers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPlayers.Size = new System.Drawing.Size(1319, 700);
+            this.dgvPlayers.Size = new System.Drawing.Size(1319, 415);
             this.dgvPlayers.TabIndex = 13;
             this.dgvPlayers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPlayers_CellContentClick);
             // 
             // grpPlayerDetails
             // 
+            this.grpPlayerDetails.Controls.Add(this.txtSixes);
+            this.grpPlayerDetails.Controls.Add(this.label16);
+            this.grpPlayerDetails.Controls.Add(this.txtFours);
+            this.grpPlayerDetails.Controls.Add(this.label15);
+            this.grpPlayerDetails.Controls.Add(this.txtBallsBowled);
+            this.grpPlayerDetails.Controls.Add(this.label14);
+            this.grpPlayerDetails.Controls.Add(this.txtFiveWickets);
+            this.grpPlayerDetails.Controls.Add(this.label13);
+            this.grpPlayerDetails.Controls.Add(this.txtHalfCenturies);
+            this.grpPlayerDetails.Controls.Add(this.label12);
+            this.grpPlayerDetails.Controls.Add(this.txtCenturies);
+            this.grpPlayerDetails.Controls.Add(this.label11);
             this.grpPlayerDetails.Controls.Add(this.btnClear);
             this.grpPlayerDetails.Controls.Add(this.txtName);
             this.grpPlayerDetails.Controls.Add(this.numAge);
@@ -158,9 +182,135 @@
             this.grpPlayerDetails.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpPlayerDetails.Location = new System.Drawing.Point(137, -1);
             this.grpPlayerDetails.Name = "grpPlayerDetails";
-            this.grpPlayerDetails.Size = new System.Drawing.Size(1190, 577);
+            this.grpPlayerDetails.Size = new System.Drawing.Size(1190, 620);
             this.grpPlayerDetails.TabIndex = 0;
             this.grpPlayerDetails.TabStop = false;
+            // 
+            // txtSixes
+            // 
+            this.txtSixes.Enabled = false;
+            this.txtSixes.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSixes.Location = new System.Drawing.Point(846, 460);
+            this.txtSixes.Name = "txtSixes";
+            this.txtSixes.Size = new System.Drawing.Size(323, 37);
+            this.txtSixes.TabIndex = 32;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.White;
+            this.label16.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Black;
+            this.label16.Location = new System.Drawing.Point(592, 460);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(69, 29);
+            this.label16.TabIndex = 31;
+            this.label16.Text = "Sixes:";
+            // 
+            // txtFours
+            // 
+            this.txtFours.Enabled = false;
+            this.txtFours.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFours.Location = new System.Drawing.Point(846, 390);
+            this.txtFours.Name = "txtFours";
+            this.txtFours.Size = new System.Drawing.Size(323, 37);
+            this.txtFours.TabIndex = 30;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.White;
+            this.label15.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Black;
+            this.label15.Location = new System.Drawing.Point(592, 390);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(76, 29);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "Fours:";
+            // 
+            // txtBallsBowled
+            // 
+            this.txtBallsBowled.Enabled = false;
+            this.txtBallsBowled.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBallsBowled.Location = new System.Drawing.Point(846, 320);
+            this.txtBallsBowled.Name = "txtBallsBowled";
+            this.txtBallsBowled.Size = new System.Drawing.Size(323, 37);
+            this.txtBallsBowled.TabIndex = 28;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.White;
+            this.label14.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Black;
+            this.label14.Location = new System.Drawing.Point(592, 320);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(147, 29);
+            this.label14.TabIndex = 27;
+            this.label14.Text = "Balls Bowled:";
+            // 
+            // txtFiveWickets
+            // 
+            this.txtFiveWickets.Enabled = false;
+            this.txtFiveWickets.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFiveWickets.Location = new System.Drawing.Point(220, 460);
+            this.txtFiveWickets.Name = "txtFiveWickets";
+            this.txtFiveWickets.Size = new System.Drawing.Size(323, 37);
+            this.txtFiveWickets.TabIndex = 26;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.White;
+            this.label13.Font = new System.Drawing.Font("Calibri", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
+            this.label13.Location = new System.Drawing.Point(30, 460);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(180, 27);
+            this.label13.TabIndex = 25;
+            this.label13.Text = "Five-Wicket Hauls:";
+            // 
+            // txtHalfCenturies
+            // 
+            this.txtHalfCenturies.Enabled = false;
+            this.txtHalfCenturies.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHalfCenturies.Location = new System.Drawing.Point(220, 390);
+            this.txtHalfCenturies.Name = "txtHalfCenturies";
+            this.txtHalfCenturies.Size = new System.Drawing.Size(323, 37);
+            this.txtHalfCenturies.TabIndex = 24;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.Black;
+            this.label12.Location = new System.Drawing.Point(30, 390);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(163, 29);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "Half-Centuries:";
+            // 
+            // txtCenturies
+            // 
+            this.txtCenturies.Enabled = false;
+            this.txtCenturies.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCenturies.Location = new System.Drawing.Point(220, 320);
+            this.txtCenturies.Name = "txtCenturies";
+            this.txtCenturies.Size = new System.Drawing.Size(323, 37);
+            this.txtCenturies.TabIndex = 22;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
+            this.label11.Location = new System.Drawing.Point(30, 320);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(116, 29);
+            this.label11.TabIndex = 21;
+            this.label11.Text = "Centuries:";
             // 
             // btnClear
             // 
@@ -168,7 +318,7 @@
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClear.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.ForeColor = System.Drawing.Color.White;
-            this.btnClear.Location = new System.Drawing.Point(770, 500);
+            this.btnClear.Location = new System.Drawing.Point(797, 547);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(170, 50);
             this.btnClear.TabIndex = 20;
@@ -178,16 +328,16 @@
             // 
             // txtName
             // 
-            this.txtName.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(210, 56);
+            this.txtName.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(220, 40);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(323, 51);
+            this.txtName.Size = new System.Drawing.Size(323, 37);
             this.txtName.TabIndex = 2;
             // 
             // numAge
             // 
-            this.numAge.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numAge.Location = new System.Drawing.Point(210, 156);
+            this.numAge.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numAge.Location = new System.Drawing.Point(220, 110);
             this.numAge.Maximum = new decimal(new int[] {
             50,
             0,
@@ -199,7 +349,7 @@
             0,
             0});
             this.numAge.Name = "numAge";
-            this.numAge.Size = new System.Drawing.Size(200, 51);
+            this.numAge.Size = new System.Drawing.Size(200, 37);
             this.numAge.TabIndex = 4;
             this.numAge.Value = new decimal(new int[] {
             18,
@@ -211,51 +361,52 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(28, 56);
+            this.label2.Location = new System.Drawing.Point(30, 40);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(118, 44);
+            this.label2.Size = new System.Drawing.Size(80, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name:";
             // 
             // cmbRole
             // 
             this.cmbRole.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbRole.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbRole.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbRole.FormattingEnabled = true;
             this.cmbRole.Items.AddRange(new object[] {
             "Batsman",
             "Bowler",
             "All-rounder",
             "Wicket Keeper"});
-            this.cmbRole.Location = new System.Drawing.Point(210, 256);
+            this.cmbRole.Location = new System.Drawing.Point(220, 180);
             this.cmbRole.Name = "cmbRole";
-            this.cmbRole.Size = new System.Drawing.Size(323, 52);
+            this.cmbRole.Size = new System.Drawing.Size(323, 37);
             this.cmbRole.TabIndex = 6;
+            this.cmbRole.SelectedIndexChanged += new System.EventHandler(this.cmbRole_SelectedIndexChanged);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(28, 156);
+            this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(30, 110);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(86, 44);
+            this.label3.Size = new System.Drawing.Size(58, 29);
             this.label3.TabIndex = 3;
             this.label3.Text = "Age:";
             // 
             // numMatches
             // 
-            this.numMatches.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numMatches.Location = new System.Drawing.Point(210, 356);
+            this.numMatches.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numMatches.Location = new System.Drawing.Point(220, 250);
             this.numMatches.Maximum = new decimal(new int[] {
             500,
             0,
             0,
             0});
             this.numMatches.Name = "numMatches";
-            this.numMatches.Size = new System.Drawing.Size(200, 51);
+            this.numMatches.Size = new System.Drawing.Size(200, 37);
             this.numMatches.TabIndex = 12;
             this.numMatches.Value = new decimal(new int[] {
             18,
@@ -267,10 +418,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
-            this.label4.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(28, 256);
+            this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(30, 180);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 44);
+            this.label4.Size = new System.Drawing.Size(65, 29);
             this.label4.TabIndex = 5;
             this.label4.Text = "Role:";
             // 
@@ -278,10 +429,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 356);
+            this.label7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(30, 250);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(156, 44);
+            this.label7.Size = new System.Drawing.Size(106, 29);
             this.label7.TabIndex = 11;
             this.label7.Text = "Matches:";
             // 
@@ -289,10 +440,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(592, 156);
+            this.label6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(592, 110);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(230, 44);
+            this.label6.Size = new System.Drawing.Size(153, 29);
             this.label6.TabIndex = 9;
             this.label6.Text = "Bowling Style:";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -303,7 +454,7 @@
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDelete.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.Color.White;
-            this.btnDelete.Location = new System.Drawing.Point(570, 500);
+            this.btnDelete.Location = new System.Drawing.Point(597, 547);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(170, 50);
             this.btnDelete.TabIndex = 19;
@@ -315,10 +466,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(592, 56);
+            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(592, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(216, 44);
+            this.label5.Size = new System.Drawing.Size(143, 29);
             this.label5.TabIndex = 7;
             this.label5.Text = "Batting Style:";
             // 
@@ -328,7 +479,7 @@
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpdate.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.Color.White;
-            this.btnUpdate.Location = new System.Drawing.Point(359, 500);
+            this.btnUpdate.Location = new System.Drawing.Point(386, 547);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(192, 50);
             this.btnUpdate.TabIndex = 18;
@@ -339,14 +490,14 @@
             // cmbBattingStyle
             // 
             this.cmbBattingStyle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbBattingStyle.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbBattingStyle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBattingStyle.FormattingEnabled = true;
             this.cmbBattingStyle.Items.AddRange(new object[] {
             "Right-handed",
             "Left-handed"});
-            this.cmbBattingStyle.Location = new System.Drawing.Point(846, 56);
+            this.cmbBattingStyle.Location = new System.Drawing.Point(846, 40);
             this.cmbBattingStyle.Name = "cmbBattingStyle";
-            this.cmbBattingStyle.Size = new System.Drawing.Size(323, 52);
+            this.cmbBattingStyle.Size = new System.Drawing.Size(323, 37);
             this.cmbBattingStyle.TabIndex = 8;
             // 
             // btnAdd
@@ -355,7 +506,7 @@
             this.btnAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAdd.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdd.ForeColor = System.Drawing.Color.White;
-            this.btnAdd.Location = new System.Drawing.Point(170, 500);
+            this.btnAdd.Location = new System.Drawing.Point(197, 547);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(170, 50);
             this.btnAdd.TabIndex = 17;
@@ -366,7 +517,7 @@
             // cmbBowlingStyle
             // 
             this.cmbBowlingStyle.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbBowlingStyle.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbBowlingStyle.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbBowlingStyle.FormattingEnabled = true;
             this.cmbBowlingStyle.Items.AddRange(new object[] {
             "Right-arm fast",
@@ -375,33 +526,33 @@
             "Left-arm medium",
             "Off spin",
             "Leg spin"});
-            this.cmbBowlingStyle.Location = new System.Drawing.Point(846, 156);
+            this.cmbBowlingStyle.Location = new System.Drawing.Point(846, 110);
             this.cmbBowlingStyle.Name = "cmbBowlingStyle";
-            this.cmbBowlingStyle.Size = new System.Drawing.Size(323, 52);
+            this.cmbBowlingStyle.Size = new System.Drawing.Size(323, 37);
             this.cmbBowlingStyle.TabIndex = 10;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(592, 256);
+            this.label8.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(592, 180);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(101, 44);
+            this.label8.Size = new System.Drawing.Size(70, 29);
             this.label8.TabIndex = 13;
             this.label8.Text = "Runs:";
             // 
             // numWickets
             // 
-            this.numWickets.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numWickets.Location = new System.Drawing.Point(846, 356);
+            this.numWickets.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numWickets.Location = new System.Drawing.Point(846, 250);
             this.numWickets.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
             this.numWickets.Name = "numWickets";
-            this.numWickets.Size = new System.Drawing.Size(200, 51);
+            this.numWickets.Size = new System.Drawing.Size(200, 37);
             this.numWickets.TabIndex = 16;
             this.numWickets.Value = new decimal(new int[] {
             18,
@@ -411,15 +562,15 @@
             // 
             // numRuns
             // 
-            this.numRuns.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numRuns.Location = new System.Drawing.Point(846, 256);
+            this.numRuns.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numRuns.Location = new System.Drawing.Point(846, 180);
             this.numRuns.Maximum = new decimal(new int[] {
             30000,
             0,
             0,
             0});
             this.numRuns.Name = "numRuns";
-            this.numRuns.Size = new System.Drawing.Size(200, 51);
+            this.numRuns.Size = new System.Drawing.Size(200, 37);
             this.numRuns.TabIndex = 14;
             this.numRuns.Value = new decimal(new int[] {
             18,
@@ -431,10 +582,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(592, 356);
+            this.label9.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(592, 250);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(146, 44);
+            this.label9.Size = new System.Drawing.Size(99, 29);
             this.label9.TabIndex = 15;
             this.label9.Text = "Wickets:";
             // 
@@ -602,5 +753,17 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnLogout;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtFiveWickets;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtHalfCenturies;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtCenturies;
+        private System.Windows.Forms.TextBox txtSixes;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txtFours;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txtBallsBowled;
+        private System.Windows.Forms.Label label14;
     }
 }

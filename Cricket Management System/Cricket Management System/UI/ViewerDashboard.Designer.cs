@@ -37,14 +37,18 @@
             this.button2 = new System.Windows.Forms.Button();
             this.txtSearchName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnViewStats = new System.Windows.Forms.Button();
+            this.grpStats = new System.Windows.Forms.GroupBox();
+            this.lblStats = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayers)).BeginInit();
             this.panel1.SuspendLayout();
+            this.grpStats.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.ForestGreen;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Calibri", 28F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(16, 18);
@@ -56,19 +60,19 @@
             // 
             // dgvPlayers
             // 
-            this.dgvPlayers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.dgvPlayers.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvPlayers.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvPlayers.BackgroundColor = System.Drawing.Color.White;
             this.dgvPlayers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvPlayers.Location = new System.Drawing.Point(12, 190);
+            this.dgvPlayers.Location = new System.Drawing.Point(28, 190);
             this.dgvPlayers.MultiSelect = false;
             this.dgvPlayers.Name = "dgvPlayers";
             this.dgvPlayers.ReadOnly = true;
             this.dgvPlayers.RowHeadersWidth = 62;
             this.dgvPlayers.RowTemplate.Height = 28;
             this.dgvPlayers.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvPlayers.Size = new System.Drawing.Size(1156, 428);
+            this.dgvPlayers.Size = new System.Drawing.Size(1140, 255);
             this.dgvPlayers.TabIndex = 25;
             this.dgvPlayers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPlayers_CellContentClick);
             // 
@@ -86,7 +90,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.ForestGreen;
+            this.panel1.BackColor = System.Drawing.Color.DarkGreen;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -143,6 +147,37 @@
             this.label2.TabIndex = 30;
             this.label2.Text = "Search by Name:";
             // 
+            // btnViewStats
+            // 
+            this.btnViewStats.BackColor = System.Drawing.Color.Sienna;
+            this.btnViewStats.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnViewStats.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewStats.ForeColor = System.Drawing.Color.White;
+            this.btnViewStats.Location = new System.Drawing.Point(501, 451);
+            this.btnViewStats.Name = "btnViewStats";
+            this.btnViewStats.Size = new System.Drawing.Size(170, 50);
+            this.btnViewStats.TabIndex = 34;
+            this.btnViewStats.Text = "View Statistics";
+            this.btnViewStats.UseVisualStyleBackColor = false;
+            this.btnViewStats.Click += new System.EventHandler(this.btnViewStats_Click);
+            // 
+            // grpStats
+            // 
+            this.grpStats.Controls.Add(this.lblStats);
+            this.grpStats.Location = new System.Drawing.Point(381, 522);
+            this.grpStats.Name = "grpStats";
+            this.grpStats.Size = new System.Drawing.Size(438, 245);
+            this.grpStats.TabIndex = 36;
+            this.grpStats.TabStop = false;
+            this.grpStats.Text = "Player Statistics";
+            // 
+            // lblStats
+            // 
+            this.lblStats.Location = new System.Drawing.Point(96, 23);
+            this.lblStats.Name = "lblStats";
+            this.lblStats.Size = new System.Drawing.Size(318, 304);
+            this.lblStats.TabIndex = 0;
+            // 
             // ViewerDashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -151,12 +186,14 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1195, 676);
+            this.Controls.Add(this.grpStats);
+            this.Controls.Add(this.dgvPlayers);
+            this.Controls.Add(this.btnViewStats);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtSearchName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dgvPlayers);
             this.Font = new System.Drawing.Font("Calibri", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -168,6 +205,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvPlayers)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.grpStats.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +221,8 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtSearchName;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnViewStats;
+        private System.Windows.Forms.GroupBox grpStats;
+        private System.Windows.Forms.Label lblStats;
     }
 }

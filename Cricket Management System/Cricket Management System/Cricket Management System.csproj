@@ -101,12 +101,17 @@
     <Compile Include="BL\AllRounder.cs" />
     <Compile Include="BL\Batsman.cs" />
     <Compile Include="BL\Bowler.cs" />
+    <Compile Include="BL\CricketPlayer.cs" />
     <Compile Include="BL\IPlayerService.cs" />
+    <Compile Include="BL\IStatsService.cs" />
     <Compile Include="BL\IUserService.cs" />
     <Compile Include="BL\Player.cs" />
     <Compile Include="BL\PlayerBL.cs" />
+    <Compile Include="BL\PlayerStats.cs" />
+    <Compile Include="BL\StatsBL.cs" />
     <Compile Include="BL\UserBL.cs" />
     <Compile Include="DL\PlayerDL.cs" />
+    <Compile Include="DL\PlayerStatsDL.cs" />
     <Compile Include="DL\SqlHelper.cs" />
     <Compile Include="DL\UserDL.cs" />
     <Compile Include="Program.cs" />
@@ -170,6 +175,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Cricket_Management_System.BLL\Cricket_Management_System.BLL.csproj">
+      <Project>{f1b540cc-d8af-4eeb-9a37-49b7533b7491}</Project>
+      <Name>Cricket_Management_System.BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

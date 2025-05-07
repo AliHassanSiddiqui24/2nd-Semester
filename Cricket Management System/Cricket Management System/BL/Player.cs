@@ -59,5 +59,29 @@ namespace Cricket_Management_System.BL
             if (Wickets == 0) return 0;
             return (double)Runs / Wickets;
         }
+
+        // Add this method to resolve the error
+        public virtual string GetPlayerInfo()
+        {
+            return $"Name: {Name}\nAge: {Age}\nRole: {Role}\n" +
+                   $"Batting Style: {BattingStyle}\nBowling Style: {BowlingStyle}\n" +
+                   $"Matches: {Matches}\nRuns: {Runs}\nWickets: {Wickets}";
+        }
+
+        // Add a performance index calculation
+        public virtual double CalculatePerformanceIndex()
+        {
+            double battingIndex = CalculateBattingAverage();
+            double bowlingIndex = CalculateBowlingAverage();
+
+            if (Role == "Batsman")
+                return battingIndex;
+            else if (Role == "Bowler")
+                return bowlingIndex > 0 ? 25.0 / bowlingIndex : 0;
+            else if (Role == "All-rounder")
+                return battingIndex + (bowlingIndex > 0 ? 25.0 / bowlingIndex : 0);
+            else
+                return battingIndex * 0.6 + (bowlingIndex > 0 ? 25.0 / bowlingIndex * 0.4 : 0);
+        }
     }
 }

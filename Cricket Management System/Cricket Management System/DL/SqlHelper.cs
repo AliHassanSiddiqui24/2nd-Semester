@@ -13,7 +13,7 @@ namespace Cricket_Management_System.DL
     {
 
         private static string connectionString =
-        "Server=localhost;Port=3306;Database=cricketmanagementsystem;Uid=root;Pwd=imrankhan804;";
+        "Server=localhost;Port=3306;Database=cms;Uid=root;Pwd=imrankhan804;";
 
         public static DataTable GetTable(string query)
         {

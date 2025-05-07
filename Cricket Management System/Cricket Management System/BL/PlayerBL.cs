@@ -34,9 +34,31 @@ namespace Cricket_Management_System.BL
                 return false;
             }
 
-            // Add player to database
+            // Extract specialized player statistics based on player type
+            int centuries = 0, halfCenturies = 0, fours = 0, sixes = 0, ballsBowled = 0, fiveWicketHauls = 0;
+
+            if (player is Batsman batsman)
+            {
+                centuries = batsman.Centuries;
+                halfCenturies = batsman.HalfCenturies;
+                fours = batsman.Fours;
+                sixes = batsman.Sixes;
+            }
+            else if (player is Bowler bowler)
+            {
+                ballsBowled = bowler.BallsBowled;
+                fiveWicketHauls = bowler.FiveWicketHauls;
+            }
+            else if (player is AllRounder allRounder)
+            {
+                centuries = allRounder.Centuries;
+                fiveWicketHauls = allRounder.FiveWicketHauls;
+            }
+
+            // Add player to database with all statistics
             PlayerDL.AddPlayer(player.Name, player.Age, player.Role, player.BattingStyle,
-                              player.BowlingStyle, player.Matches, player.Runs, player.Wickets);
+                              player.BowlingStyle, player.Matches, player.Runs, player.Wickets,
+                              centuries, halfCenturies, fours, sixes, ballsBowled, fiveWicketHauls);
             return true;
         }
 
@@ -48,9 +70,31 @@ namespace Cricket_Management_System.BL
                 return false;
             }
 
-            // Update player in database
+            // Extract specialized player statistics based on player type
+            int centuries = 0, halfCenturies = 0, fours = 0, sixes = 0, ballsBowled = 0, fiveWicketHauls = 0;
+
+            if (player is Batsman batsman)
+            {
+                centuries = batsman.Centuries;
+                halfCenturies = batsman.HalfCenturies;
+                fours = batsman.Fours;
+                sixes = batsman.Sixes;
+            }
+            else if (player is Bowler bowler)
+            {
+                ballsBowled = bowler.BallsBowled;
+                fiveWicketHauls = bowler.FiveWicketHauls;
+            }
+            else if (player is AllRounder allRounder)
+            {
+                centuries = allRounder.Centuries;
+                fiveWicketHauls = allRounder.FiveWicketHauls;
+            }
+
+            // Update player in database with all statistics
             PlayerDL.UpdatePlayer(player.Id, player.Name, player.Age, player.Role, player.BattingStyle,
-                                 player.BowlingStyle, player.Matches, player.Runs, player.Wickets);
+                                 player.BowlingStyle, player.Matches, player.Runs, player.Wickets,
+                                 centuries, halfCenturies, fours, sixes, ballsBowled, fiveWicketHauls);
             return true;
         }
 
