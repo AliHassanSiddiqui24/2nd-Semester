@@ -17,7 +17,7 @@ namespace Cricket_Management_System.UI
         public LoginForm()
         {
             InitializeComponent();
-            _userService = new UserBL(); // Dependency Injection principle
+            _userService = new UserBL();
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
@@ -39,10 +39,8 @@ namespace Cricket_Management_System.UI
             string role;
             if (_userService.Login(username, password, out role))
             {
-                // Login successful
                 lblMessage.Text = "Login successful!";
 
-                // Open appropriate form based on role
                 if (role.Equals("Manager", StringComparison.OrdinalIgnoreCase))
                 {
                     ManagerDashboard managerDashboard = new ManagerDashboard();

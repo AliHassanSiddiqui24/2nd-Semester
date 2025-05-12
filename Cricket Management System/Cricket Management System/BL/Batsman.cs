@@ -6,13 +6,72 @@ using System.Threading.Tasks;
 
 namespace Cricket_Management_System.BL
 {
-    // Batsman class - demonstrates Inheritance and Specialization (OOP)
-    public class Batsman : Player
+    public class Batsman : CricketPlayer
     {
-        public int Centuries { get; set; }
-        public int HalfCenturies { get; set; }
-        public int Fours { get; set; }
-        public int Sixes { get; set; }
+        private int _centuries;
+        private int _halfCenturies;
+        private int _fours;
+        private int _sixes;
+
+        public int GetCenturies() 
+        { 
+            return _centuries; 
+        }
+        public void SetCenturies(int value) 
+        { 
+            _centuries = value; 
+        }
+
+        public int GetHalfCenturies() 
+        { 
+            return _halfCenturies; 
+        }
+        public void SetHalfCenturies(int value) 
+        { 
+            _halfCenturies = value; 
+        }
+
+        public int GetFours() 
+        { 
+            return _fours; 
+        }
+        public void SetFours(int value) 
+        { 
+            _fours = value; 
+        }
+
+        public int GetSixes() 
+        { 
+            return _sixes; 
+        }
+        public void SetSixes(int value) 
+        { 
+            _sixes = value; 
+        }
+
+        public int Centuries
+        {
+            get { return GetCenturies(); }
+            set { SetCenturies(value); }
+        }
+
+        public int HalfCenturies
+        {
+            get { return GetHalfCenturies(); }
+            set { SetHalfCenturies(value); }
+        }
+
+        public int Fours
+        {
+            get { return GetFours(); }
+            set { SetFours(value); }
+        }
+
+        public int Sixes
+        {
+            get { return GetSixes(); }
+            set { SetSixes(value); }
+        }
 
         public Batsman() : base()
         {
@@ -22,28 +81,33 @@ namespace Cricket_Management_System.BL
                       int centuries, int halfCenturies, int fours, int sixes)
             : base(name, age, "Batsman", battingStyle, "", matches, runs, 0)
         {
-            Centuries = centuries;
-            HalfCenturies = halfCenturies;
-            Fours = fours;
-            Sixes = sixes;
+            SetCenturies(centuries);
+            SetHalfCenturies(halfCenturies);
+            SetFours(fours);
+            SetSixes(sixes);
         }
 
-        // Overriding method - demonstrates Polymorphism (OOP)
-        public override double CalculateBattingAverage()
+        public override string GetPlayerInfo()
         {
-            if (Matches == 0) return 0;
-            return (double)Runs / Matches;
+            return base.GetPlayerInfo() +
+                   $", Centuries: {GetCenturies()}, Half Centuries: {GetHalfCenturies()}, " +
+                   $"Fours: {GetFours()}, Sixes: {GetSixes()}";
         }
 
-        // Additional method specific to Batsman
-        public double CalculateStrikeRate(int ballsFaced)
+        public override double CalculatePerformanceIndex()
         {
-            if (ballsFaced == 0) return 0;
-            return ((double)Runs / ballsFaced) * 100;
+            double battingAvg = 0;
+            double centuryPoints = GetCenturies() * 5;
+            double halfCenturyPoints = GetHalfCenturies() * 2;
+            double boundaryPoints = (GetFours() * 0.25) + (GetSixes() * 0.5);
+
+            if (Matches > 0)
+            {
+                battingAvg = (double)Runs / Matches;
+            }
+
+            double totalPoints = battingAvg + centuryPoints + halfCenturyPoints + boundaryPoints;
+            return totalPoints;
         }
     }
-
-    
-
-    
 }

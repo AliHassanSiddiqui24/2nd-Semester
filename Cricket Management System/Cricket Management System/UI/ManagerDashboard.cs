@@ -19,7 +19,7 @@ namespace Cricket_Management_System.UI
         public ManagerDashboard()
         {
             InitializeComponent();
-            _playerService = new PlayerBL(); // Dependency Injection
+            _playerService = new PlayerBL();
         }
 
         private void tabPage1_Click(object sender, EventArgs e)
@@ -34,7 +34,6 @@ namespace Cricket_Management_System.UI
         }
         private void LoadAllPlayers()
         {
-            // Populate the DataGridView with all players
             dgvPlayers.DataSource = _playerService.GetAllPlayers();
             dgvPlayers.Refresh();
             dgvSearchResults.DataSource = _playerService.GetAllPlayers();
@@ -44,7 +43,7 @@ namespace Cricket_Management_System.UI
         private void ClearForm()
         {
             txtName.Text = string.Empty;
-            numAge.Value = 20;
+            numAge.Value = 18;
             cmbRole.SelectedIndex = -1;
             cmbBattingStyle.SelectedIndex = -1;
             cmbBowlingStyle.SelectedIndex = -1;
@@ -52,7 +51,6 @@ namespace Cricket_Management_System.UI
             numRuns.Value = 0;
             numWickets.Value = 0;
 
-            // Clear additional statistics fields
             txtCenturies.Text = "0";
             txtHalfCenturies.Text = "0";
             txtFours.Text = "0";
@@ -66,10 +64,19 @@ namespace Cricket_Management_System.UI
             btnAdd.Enabled = true;
         }
 
-        private Player GetPlayerFromForm()
+        private CricketPlayer GetPlayerFromForm()
         {
-            Player player;
-            string selectedRole = cmbRole.SelectedItem?.ToString() ?? string.Empty;
+            CricketPlayer player;
+            string selectedRole;
+
+            if (cmbRole.SelectedItem != null)
+            {
+                selectedRole = cmbRole.SelectedItem.ToString();
+            }
+            else
+            {
+                selectedRole = "";
+            }
 
             switch (selectedRole)
             {
@@ -79,17 +86,60 @@ namespace Cricket_Management_System.UI
                     batsman.Name = txtName.Text.Trim();
                     batsman.Age = (int)numAge.Value;
                     batsman.Role = "Batsman";
-                    batsman.BattingStyle = cmbBattingStyle.SelectedItem?.ToString() ?? string.Empty;
+
+                    if (cmbBattingStyle.SelectedItem != null)
+                    {
+                        batsman.BattingStyle = cmbBattingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        batsman.BattingStyle = "";
+                    }
+
                     batsman.BowlingStyle = "";
                     batsman.Matches = (int)numMatches.Value;
                     batsman.Runs = (int)numRuns.Value;
                     batsman.Wickets = 0;
 
-                    // Batsman-specific properties
-                    batsman.Centuries = int.TryParse(txtCenturies.Text, out int centuries) ? centuries : 0;
-                    batsman.HalfCenturies = int.TryParse(txtHalfCenturies.Text, out int halfCenturies) ? halfCenturies : 0;
-                    batsman.Fours = int.TryParse(txtFours.Text, out int fours) ? fours : 0;
-                    batsman.Sixes = int.TryParse(txtSixes.Text, out int sixes) ? sixes : 0;
+                    int centuries;
+                    if (int.TryParse(txtCenturies.Text, out centuries))
+                    {
+                        batsman.Centuries = centuries;
+                    }
+                    else
+                    {
+                        batsman.Centuries = 0;
+                    }
+
+                    int halfCenturies;
+                    if (int.TryParse(txtHalfCenturies.Text, out halfCenturies))
+                    {
+                        batsman.HalfCenturies = halfCenturies;
+                    }
+                    else
+                    {
+                        batsman.HalfCenturies = 0;
+                    }
+
+                    int fours;
+                    if (int.TryParse(txtFours.Text, out fours))
+                    {
+                        batsman.Fours = fours;
+                    }
+                    else
+                    {
+                        batsman.Fours = 0;
+                    }
+
+                    int sixes;
+                    if (int.TryParse(txtSixes.Text, out sixes))
+                    {
+                        batsman.Sixes = sixes;
+                    }
+                    else
+                    {
+                        batsman.Sixes = 0;
+                    }
 
                     player = batsman;
                     break;
@@ -101,14 +151,39 @@ namespace Cricket_Management_System.UI
                     bowler.Age = (int)numAge.Value;
                     bowler.Role = "Bowler";
                     bowler.BattingStyle = "";
-                    bowler.BowlingStyle = cmbBowlingStyle.SelectedItem?.ToString() ?? string.Empty;
+
+                    if (cmbBowlingStyle.SelectedItem != null)
+                    {
+                        bowler.BowlingStyle = cmbBowlingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        bowler.BowlingStyle = "";
+                    }
+
                     bowler.Matches = (int)numMatches.Value;
                     bowler.Runs = (int)numRuns.Value;
                     bowler.Wickets = (int)numWickets.Value;
 
-                    // Bowler-specific properties
-                    bowler.BallsBowled = int.TryParse(txtBallsBowled.Text, out int ballsBowled) ? ballsBowled : 0;
-                    bowler.FiveWicketHauls = int.TryParse(txtFiveWickets.Text, out int fiveWickets) ? fiveWickets : 0;
+                    int ballsBowled;
+                    if (int.TryParse(txtBallsBowled.Text, out ballsBowled))
+                    {
+                        bowler.BallsBowled = ballsBowled;
+                    }
+                    else
+                    {
+                        bowler.BallsBowled = 0;
+                    }
+
+                    int fiveWickets;
+                    if (int.TryParse(txtFiveWickets.Text, out fiveWickets))
+                    {
+                        bowler.FiveWicketHauls = fiveWickets;
+                    }
+                    else
+                    {
+                        bowler.FiveWicketHauls = 0;
+                    }
 
                     player = bowler;
                     break;
@@ -119,36 +194,127 @@ namespace Cricket_Management_System.UI
                     allRounder.Name = txtName.Text.Trim();
                     allRounder.Age = (int)numAge.Value;
                     allRounder.Role = "All-rounder";
-                    allRounder.BattingStyle = cmbBattingStyle.SelectedItem?.ToString() ?? string.Empty;
-                    allRounder.BowlingStyle = cmbBowlingStyle.SelectedItem?.ToString() ?? string.Empty;
+
+                    if (cmbBattingStyle.SelectedItem != null)
+                    {
+                        allRounder.BattingStyle = cmbBattingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        allRounder.BattingStyle = "";
+                    }
+
+                    if (cmbBowlingStyle.SelectedItem != null)
+                    {
+                        allRounder.BowlingStyle = cmbBowlingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        allRounder.BowlingStyle = "";
+                    }
+
                     allRounder.Matches = (int)numMatches.Value;
                     allRounder.Runs = (int)numRuns.Value;
                     allRounder.Wickets = (int)numWickets.Value;
 
-                    // All-rounder-specific properties
-                    allRounder.Centuries = int.TryParse(txtCenturies.Text, out int allCenturies) ? allCenturies : 0;
-                    allRounder.FiveWicketHauls = int.TryParse(txtFiveWickets.Text, out int allFiveWickets) ? allFiveWickets : 0;
+                    int allCenturies;
+                    if (int.TryParse(txtCenturies.Text, out allCenturies))
+                    {
+                        allRounder.Centuries = allCenturies;
+                    }
+                    else
+                    {
+                        allRounder.Centuries = 0;
+                    }
+
+                    int allHalfCenturies;
+                    if (int.TryParse(txtHalfCenturies.Text, out allHalfCenturies))
+                    {
+                        allRounder.HalfCenturies = allHalfCenturies;
+                    }
+                    else
+                    {
+                        allRounder.HalfCenturies = 0;
+                    }
+
+                    int allFours;
+                    if (int.TryParse(txtFours.Text, out allFours))
+                    {
+                        allRounder.Fours = allFours;
+                    }
+                    else
+                    {
+                        allRounder.Fours = 0;
+                    }
+
+                    int allSixes;
+                    if (int.TryParse(txtSixes.Text, out allSixes))
+                    {
+                        allRounder.Sixes = allSixes;
+                    }
+                    else
+                    {
+                        allRounder.Sixes = 0;
+                    }
+
+                    int allBallsBowled;
+                    if (int.TryParse(txtBallsBowled.Text, out allBallsBowled))
+                    {
+                        allRounder.BallsBowled = allBallsBowled;
+                    }
+                    else
+                    {
+                        allRounder.BallsBowled = 0;
+                    }
+
+                    int allFiveWickets;
+                    if (int.TryParse(txtFiveWickets.Text, out allFiveWickets))
+                    {
+                        allRounder.FiveWicketHauls = allFiveWickets;
+                    }
+                    else
+                    {
+                        allRounder.FiveWicketHauls = 0;
+                    }
 
                     player = allRounder;
                     break;
 
                 default:
-                    player = new Player();
-                    player.Id = selectedPlayerId;
-                    player.Name = txtName.Text.Trim();
-                    player.Age = (int)numAge.Value;
-                    player.Role = selectedRole;
-                    player.BattingStyle = cmbBattingStyle.SelectedItem?.ToString() ?? string.Empty;
-                    player.BowlingStyle = cmbBowlingStyle.SelectedItem?.ToString() ?? string.Empty;
-                    player.Matches = (int)numMatches.Value;
-                    player.Runs = (int)numRuns.Value;
-                    player.Wickets = (int)numWickets.Value;
+                    Batsman defaultPlayer = new Batsman();
+                    defaultPlayer.Id = selectedPlayerId;
+                    defaultPlayer.Name = txtName.Text.Trim();
+                    defaultPlayer.Age = (int)numAge.Value;
+                    defaultPlayer.Role = selectedRole;
+
+                    if (cmbBattingStyle.SelectedItem != null)
+                    {
+                        defaultPlayer.BattingStyle = cmbBattingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        defaultPlayer.BattingStyle = "";
+                    }
+
+                    if (cmbBowlingStyle.SelectedItem != null)
+                    {
+                        defaultPlayer.BowlingStyle = cmbBowlingStyle.SelectedItem.ToString();
+                    }
+                    else
+                    {
+                        defaultPlayer.BowlingStyle = "";
+                    }
+
+                    defaultPlayer.Matches = (int)numMatches.Value;
+                    defaultPlayer.Runs = (int)numRuns.Value;
+                    defaultPlayer.Wickets = (int)numWickets.Value;
+
+                    player = defaultPlayer;
                     break;
             }
 
             return player;
         }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtName.Text.Trim()))
@@ -163,7 +329,7 @@ namespace Cricket_Management_System.UI
                 return;
             }
 
-            Player player = GetPlayerFromForm();
+            CricketPlayer player = GetPlayerFromForm();
 
             if (_playerService.AddPlayer(player))
             {
@@ -173,7 +339,7 @@ namespace Cricket_Management_System.UI
             }
             else
             {
-                MessageBox.Show("Failed to add player", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Player Addition Failed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -185,7 +351,7 @@ namespace Cricket_Management_System.UI
                 return;
             }
 
-            Player player = GetPlayerFromForm();
+            CricketPlayer player = GetPlayerFromForm();
             if (_playerService.UpdatePlayer(player))
             {
                 MessageBox.Show("Player updated successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -206,8 +372,8 @@ namespace Cricket_Management_System.UI
                 return;
             }
 
-            DialogResult result = MessageBox.Show("Are you sure you want to delete this player?", "Confirm Delete",
-                                                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure you want to delete this player?", "Confirm Delete", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
             if (result == DialogResult.Yes)
             {
                 if (_playerService.DeletePlayer(selectedPlayerId))
@@ -244,42 +410,48 @@ namespace Cricket_Management_System.UI
                 numRuns.Value = Convert.ToInt32(row.Cells["Runs"].Value);
                 numWickets.Value = Convert.ToInt32(row.Cells["Wickets"].Value);
 
-                // Load additional statistics if available in the database
                 if (row.Cells["Centuries"] != null && row.Cells["Centuries"].Value != DBNull.Value)
+                {
                     txtCenturies.Text = row.Cells["Centuries"].Value.ToString();
+                }
 
                 if (row.Cells["HalfCenturies"] != null && row.Cells["HalfCenturies"].Value != DBNull.Value)
+                {
                     txtHalfCenturies.Text = row.Cells["HalfCenturies"].Value.ToString();
-
+                }
                 if (row.Cells["Fours"] != null && row.Cells["Fours"].Value != DBNull.Value)
+                {
                     txtFours.Text = row.Cells["Fours"].Value.ToString();
-
+                }
                 if (row.Cells["Sixes"] != null && row.Cells["Sixes"].Value != DBNull.Value)
+                {
                     txtSixes.Text = row.Cells["Sixes"].Value.ToString();
-
+                }
                 if (row.Cells["BallsBowled"] != null && row.Cells["BallsBowled"].Value != DBNull.Value)
+                {
                     txtBallsBowled.Text = row.Cells["BallsBowled"].Value.ToString();
-
+                }
                 if (row.Cells["FiveWicketHauls"] != null && row.Cells["FiveWicketHauls"].Value != DBNull.Value)
+                {
                     txtFiveWickets.Text = row.Cells["FiveWicketHauls"].Value.ToString();
-
+                }
                 btnUpdate.Enabled = true;
                 btnDelete.Enabled = true;
                 btnAdd.Enabled = false;
             }
         }
-        
+
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-            string searchTerm = txtSearchName.Text.Trim();
-            if (string.IsNullOrEmpty(searchTerm))
+            string search = txtSearchName.Text.Trim();
+            if (string.IsNullOrEmpty(search))
             {
-                MessageBox.Show("Please enter a search term", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please enter in Search Option ", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            dgvSearchResults.DataSource = _playerService.SearchPlayersByName(searchTerm);
+            dgvSearchResults.DataSource = _playerService.SearchPlayersByName(search);
             dgvSearchResults.Refresh();
         }
 
@@ -292,12 +464,10 @@ namespace Cricket_Management_System.UI
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            // Confirm before logout
-    DialogResult result = MessageBox.Show("Are you sure you want to logout?", "Confirm Logout",
-                                         MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure you want to logout?", "Confirm Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
             if (result == DialogResult.Yes)
             {
-                // Close current form and show login form
                 LoginForm loginForm = new LoginForm();
                 this.Hide();
                 loginForm.ShowDialog();
@@ -322,9 +492,16 @@ namespace Cricket_Management_System.UI
 
         private void cmbRole_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string selectedRole = cmbRole.SelectedItem?.ToString() ?? string.Empty;
+            string selectedRole;
+            if (cmbRole.SelectedItem != null)
+            {
+                selectedRole = cmbRole.SelectedItem.ToString();
+            }
+            else
+            {
+                selectedRole = "";
+            }
 
-            // Hide all specialized fields first
             txtCenturies.Enabled = false;
             txtHalfCenturies.Enabled = false;
             txtFiveWickets.Enabled = false;
@@ -332,7 +509,9 @@ namespace Cricket_Management_System.UI
             txtFours.Enabled = false;
             txtSixes.Enabled = false;
 
-            // Show relevant fields based on role
+            cmbBattingStyle.Enabled = false;
+            cmbBowlingStyle.Enabled = false;
+
             switch (selectedRole)
             {
                 case "Batsman":
@@ -340,16 +519,32 @@ namespace Cricket_Management_System.UI
                     txtHalfCenturies.Enabled = true;
                     txtFours.Enabled = true;
                     txtSixes.Enabled = true;
+                    cmbBattingStyle.Enabled = true;
                     break;
 
                 case "Bowler":
+
                     txtFiveWickets.Enabled = true;
                     txtBallsBowled.Enabled = true;
+                    cmbBowlingStyle.Enabled = true;
                     break;
 
                 case "All-rounder":
+
                     txtCenturies.Enabled = true;
+                    txtHalfCenturies.Enabled = true;
+                    txtFours.Enabled = true;
+                    txtSixes.Enabled = true;
                     txtFiveWickets.Enabled = true;
+                    txtBallsBowled.Enabled = true;
+                    cmbBattingStyle.Enabled = true;
+                    cmbBowlingStyle.Enabled = true;
+                    break;
+
+                default:
+
+                    cmbBattingStyle.Enabled = true;
+                    cmbBowlingStyle.Enabled = true;
                     break;
             }
         }

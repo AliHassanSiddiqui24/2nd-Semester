@@ -6,11 +6,40 @@ using System.Threading.Tasks;
 
 namespace Cricket_Management_System.BL
 {
-    // Bowler class - demonstrates Inheritance and Specialization (OOP)
-    public class Bowler : Player
+    public class Bowler : CricketPlayer
     {
-        public int BallsBowled { get; set; }
-        public int FiveWicketHauls { get; set; }
+        private int _ballsBowled;
+        private int _fiveWicketHauls;
+
+        public int GetBallsBowled() 
+        { 
+            return _ballsBowled; 
+        }
+        public void SetBallsBowled(int value) 
+        { 
+            _ballsBowled = value;
+        }
+
+        public int GetFiveWicketHauls() 
+        { 
+            return _fiveWicketHauls;
+        }
+        public void SetFiveWicketHauls(int value)
+        { 
+            _fiveWicketHauls = value;
+        }
+
+        public int BallsBowled
+        {
+            get { return GetBallsBowled(); }
+            set { SetBallsBowled(value); }
+        }
+
+        public int FiveWicketHauls
+        {
+            get { return GetFiveWicketHauls(); }
+            set { SetFiveWicketHauls(value); }
+        }
 
         public Bowler() : base()
         {
@@ -20,23 +49,35 @@ namespace Cricket_Management_System.BL
                      int runs, int ballsBowled, int fiveWicketHauls)
             : base(name, age, "Bowler", "", bowlingStyle, matches, runs, wickets)
         {
-            BallsBowled = ballsBowled;
-            FiveWicketHauls = fiveWicketHauls;
+            SetBallsBowled(ballsBowled);
+            SetFiveWicketHauls(fiveWicketHauls);
         }
 
-        // Overriding method - demonstrates Polymorphism (OOP)
-        public override double CalculateBowlingAverage()
+        public override string GetPlayerInfo()
         {
-            if (Wickets == 0) return 0;
-            return (double)Runs / Wickets;
+            return base.GetPlayerInfo() +
+                   $", Balls Bowled: {GetBallsBowled()}, Five Wicket Hauls: {GetFiveWicketHauls()}";
         }
 
-        // Additional method specific to Bowler
-        public double CalculateEconomyRate()
+        public override double CalculatePerformanceIndex()
         {
-            if (BallsBowled == 0) return 0;
-            double overs = BallsBowled / 6.0;
-            return (double)Runs / overs;
+            double wicketPoints = Wickets * 4;
+            double fiveWicketPoints = GetFiveWicketHauls() * 5;
+            double bowlingAvg = 0;
+            double bowlingAvgPoints = 0;
+
+            if (Wickets > 0)
+            {
+                bowlingAvg = (double)Wickets / Matches;
+
+                if (bowlingAvg > 0)
+                {
+                    bowlingAvgPoints = 50 / bowlingAvg;
+                }
+            }
+
+            double totalPoints = wicketPoints + fiveWicketPoints + bowlingAvgPoints;
+            return totalPoints;
         }
     }
 }

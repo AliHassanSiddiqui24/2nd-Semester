@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\bin\Debug\Cricket_Management_System.BLL.dll
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\bin\Debug\Cricket_Management_System.BLL.pdb
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\obj\Debug\Cricket_Management_System.BLL.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\obj\Debug\Cricket_Management_System.BLL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\obj\Debug\Cricket_Management_System.BLL.dll
+C:\Users\User\Desktop\OOP Project\Cricket Management System\Cricket_Management_System.BLL\obj\Debug\Cricket_Management_System.BLL.pdb

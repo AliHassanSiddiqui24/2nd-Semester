@@ -18,15 +18,14 @@ namespace Cricket_Management_System.UI
         public SignupForm()
         {
             InitializeComponent();
-            _userService = new UserBL(); // Dependency Injection
+            _userService = new UserBL();
         }
 
         private void SignupForm_Load(object sender, EventArgs e)
         {
-            // Add roles to the combo box
             cmbRole.Items.Add("Manager");
             cmbRole.Items.Add("Viewer");
-            cmbRole.SelectedIndex = 1; // Default to Viewer
+            cmbRole.SelectedIndex = -1;
         }
 
         private void btnSignup_Click(object sender, EventArgs e)
@@ -38,7 +37,7 @@ namespace Cricket_Management_System.UI
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirmPassword))
             {
-                lblMessage.Text = "Please fill in all fields";
+                lblMessage.Text = "Fields cannot be empty";
                 return;
             }
 
@@ -55,7 +54,7 @@ namespace Cricket_Management_System.UI
             }
             else
             {
-                lblMessage.Text = "Username already exists or registration failed";
+                lblMessage.Text = "Username already exists or Registration failed";
             }
         }
 
@@ -63,7 +62,12 @@ namespace Cricket_Management_System.UI
 
         private void btnCancel_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult reply = MessageBox.Show("Are you sure", "CONFIRM", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if(reply == DialogResult.Yes)
+            {
+                this.Close();
+            }
+
         }
     }
 }

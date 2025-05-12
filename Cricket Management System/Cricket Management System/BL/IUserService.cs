@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Cricket_Management_System.BL
 {
-    // Interface for User Service - Follows Interface Segregation Principle (SOLID)
     public interface IUserService
     {
         bool Login(string username, string password, out string role);

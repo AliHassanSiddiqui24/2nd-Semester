@@ -8,7 +8,6 @@ namespace Cricket_Management_System.DL
 {
     public class UserDL
     {
-        // Method to validate user login
         public static bool ValidateUser(string username, string password, out string role)
         {
             role = string.Empty;
@@ -23,7 +22,6 @@ namespace Cricket_Management_System.DL
             return false;
         }
 
-        // Method to check if username already exists
         public static bool UserExists(string username)
         {
             string query = $"SELECT Id FROM Users WHERE Username = '{username}'";
@@ -31,7 +29,6 @@ namespace Cricket_Management_System.DL
             return dt.Rows.Count > 0;
         }
 
-        // Method to add new user
         public static void AddUser(string username, string password, string role)
         {
             string query = $"INSERT INTO Users (Username, Password, Role) VALUES ('{username}', '{password}', '{role}')";

@@ -9,93 +9,109 @@ namespace Cricket_Management_System.DL
 {
     public class PlayerDL
     {
-        // Get all players
         public static DataTable GetAllPlayers()
         {
             string query = "SELECT * FROM Players";
             return SqlHelper.GetTable(query);
         }
 
-        // Get player by ID
-        public static DataTable GetPlayerById(int id)
-        {
-            string query = $"SELECT * FROM Players WHERE Id = {id}";
-            return SqlHelper.GetTable(query);
-        }
-
-        // Search players by name
         public static DataTable SearchPlayersByName(string name)
         {
             string query = $"SELECT * FROM Players WHERE Name LIKE '%{name}%'";
             return SqlHelper.GetTable(query);
         }
 
-        // Add new player with additional statistics
         public static void AddPlayer(string name, int age, string role, string battingStyle, string bowlingStyle,
-                                   int matches, int runs, int wickets, int centuries = 0, int halfCenturies = 0,
-                                   int fours = 0, int sixes = 0, int ballsBowled = 0, int fiveWicketHauls = 0)
+                             int matches, int runs, int wickets,
+                             int centuries = 0, int halfCenturies = 0,
+                             int fours = 0, int sixes = 0, int ballsBowled = 0, int fiveWicketHauls = 0)
         {
-            // Parameter validation
-            name = string.IsNullOrEmpty(name) ? "" : name.Replace("'", "''"); // Escape single quotes
-            battingStyle = string.IsNullOrEmpty(battingStyle) ? "" : battingStyle.Replace("'", "''");
-            bowlingStyle = string.IsNullOrEmpty(bowlingStyle) ? "" : bowlingStyle.Replace("'", "''");
-            role = string.IsNullOrEmpty(role) ? "Player" : role.Replace("'", "''");
+            if (string.IsNullOrEmpty(name))
+            {
+                name = "";
+            }
+            if (string.IsNullOrEmpty(battingStyle))
+            {
+                battingStyle = "";
+            }
+            if (string.IsNullOrEmpty(bowlingStyle))
+            {
+                bowlingStyle = "";
+            }
+            if (string.IsNullOrEmpty(role))
+            {
+                role = "Player";
+            }
 
-            // Validate numeric values
-            age = age < 0 ? 0 : age;
-            matches = matches < 0 ? 0 : matches;
-            runs = runs < 0 ? 0 : runs;
-            wickets = wickets < 0 ? 0 : wickets;
-            centuries = centuries < 0 ? 0 : centuries;
-            halfCenturies = halfCenturies < 0 ? 0 : halfCenturies;
-            fours = fours < 0 ? 0 : fours;
-            sixes = sixes < 0 ? 0 : sixes;
-            ballsBowled = ballsBowled < 0 ? 0 : ballsBowled;
-            fiveWicketHauls = fiveWicketHauls < 0 ? 0 : fiveWicketHauls;
+            if (age < 0) age = 0;
+            if (matches < 0) matches = 0;
+            if (runs < 0) runs = 0;
+            if (wickets < 0) wickets = 0;
+            if (centuries < 0) centuries = 0;
+            if (halfCenturies < 0) halfCenturies = 0;
+            if (fours < 0) fours = 0;
+            if (sixes < 0) sixes = 0;
+            if (ballsBowled < 0) ballsBowled = 0;
+            if (fiveWicketHauls < 0) fiveWicketHauls = 0;
 
             string query = $@"INSERT INTO Players (Name, Age, Role, BattingStyle, BowlingStyle, 
-                            Matches, Runs, Wickets, Centuries, HalfCenturies, Fours, Sixes, BallsBowled, FiveWicketHauls) VALUES 
-                            ('{name}', {age}, '{role}', '{battingStyle}', '{bowlingStyle}', 
-                            {matches}, {runs}, {wickets}, {centuries}, {halfCenturies}, {fours}, {sixes}, {ballsBowled}, {fiveWicketHauls})";
+                    Matches, Runs, Wickets, Centuries, HalfCenturies, Fours, Sixes, BallsBowled, FiveWicketHauls) 
+                    VALUES ('{name}', {age}, '{role}', '{battingStyle}', '{bowlingStyle}', 
+                    {matches}, {runs}, {wickets}, {centuries}, {halfCenturies}, {fours}, {sixes}, {ballsBowled}, {fiveWicketHauls})";
+
             SqlHelper.ExecuteDML(query);
         }
 
-        // Update player with additional statistics
         public static void UpdatePlayer(int id, string name, int age, string role, string battingStyle, string bowlingStyle,
-                                       int matches, int runs, int wickets, int centuries = 0, int halfCenturies = 0,
-                                       int fours = 0, int sixes = 0, int ballsBowled = 0, int fiveWicketHauls = 0)
+                                        int matches, int runs, int wickets,
+                                        int centuries = 0, int halfCenturies = 0,
+                                        int fours = 0, int sixes = 0, int ballsBowled = 0, int fiveWicketHauls = 0)
         {
-            // Parameter validation
-            name = string.IsNullOrEmpty(name) ? "" : name.Replace("'", "''"); // Escape single quotes
-            battingStyle = string.IsNullOrEmpty(battingStyle) ? "" : battingStyle.Replace("'", "''");
-            bowlingStyle = string.IsNullOrEmpty(bowlingStyle) ? "" : bowlingStyle.Replace("'", "''");
-            role = string.IsNullOrEmpty(role) ? "Player" : role.Replace("'", "''");
+            if (string.IsNullOrEmpty(name))
+            {
+                name = "";
+            }
+            if (string.IsNullOrEmpty(battingStyle))
+            {
+                battingStyle = "";
+            }
+            if (string.IsNullOrEmpty(bowlingStyle))
+            {
+                bowlingStyle = "";
+            }
+            if (string.IsNullOrEmpty(role))
+            {
+                role = "Player";
+            }
 
-            // Validate numeric values
-            age = age < 0 ? 0 : age;
-            matches = matches < 0 ? 0 : matches;
-            runs = runs < 0 ? 0 : runs;
-            wickets = wickets < 0 ? 0 : wickets;
-            centuries = centuries < 0 ? 0 : centuries;
-            halfCenturies = halfCenturies < 0 ? 0 : halfCenturies;
-            fours = fours < 0 ? 0 : fours;
-            sixes = sixes < 0 ? 0 : sixes;
-            ballsBowled = ballsBowled < 0 ? 0 : ballsBowled;
-            fiveWicketHauls = fiveWicketHauls < 0 ? 0 : fiveWicketHauls;
+            if (age < 0) age = 0;
+            if (matches < 0) matches = 0;
+            if (runs < 0) runs = 0;
+            if (wickets < 0) wickets = 0;
+            if (centuries < 0) centuries = 0;
+            if (halfCenturies < 0) halfCenturies = 0;
+            if (fours < 0) fours = 0;
+            if (sixes < 0) sixes = 0;
+            if (ballsBowled < 0) ballsBowled = 0;
+            if (fiveWicketHauls < 0) fiveWicketHauls = 0;
 
             string query = $@"UPDATE Players SET Name = '{name}', Age = {age}, Role = '{role}', 
-                            BattingStyle = '{battingStyle}', BowlingStyle = '{bowlingStyle}', 
-                            Matches = {matches}, Runs = {runs}, Wickets = {wickets},
-                            Centuries = {centuries}, HalfCenturies = {halfCenturies}, 
-                            Fours = {fours}, Sixes = {sixes}, BallsBowled = {ballsBowled}, 
-                            FiveWicketHauls = {fiveWicketHauls} WHERE Id = {id}";
+                    BattingStyle = '{battingStyle}', BowlingStyle = '{bowlingStyle}', 
+                    Matches = {matches}, Runs = {runs}, Wickets = {wickets},
+                    Centuries = {centuries}, HalfCenturies = {halfCenturies}, 
+                    Fours = {fours}, Sixes = {sixes}, BallsBowled = {ballsBowled}, 
+                    FiveWicketHauls = {fiveWicketHauls} WHERE Id = {id}";
+
             SqlHelper.ExecuteDML(query);
         }
 
-        // Delete player
+
         public static void DeletePlayer(int id)
         {
-            if (id <= 0) return; // Validation
+            if (id <= 0)
+            {
+                return;
+            }
 
             string query = $"DELETE FROM Players WHERE Id = {id}";
             SqlHelper.ExecuteDML(query);

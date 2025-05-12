@@ -170,6 +170,7 @@
             this.grpStats.TabIndex = 36;
             this.grpStats.TabStop = false;
             this.grpStats.Text = "Player Statistics";
+            this.grpStats.Enter += new System.EventHandler(this.grpStats_Enter);
             // 
             // lblStats
             // 
